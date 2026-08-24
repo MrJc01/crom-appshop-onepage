@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  appshop-onepage:
+    build: .
+    container_name: appshop-onepage
+    restart: always
+    ports:
+      - "8000:80"
