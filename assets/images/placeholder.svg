@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="brand-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="600" fill="url(#bg-grad)" />
+
+  <!-- Inner Frame Card -->
+  <rect x="160" y="100" width="480" height="360" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="8 8" filter="url(#subtle-shadow)" />
+
+  <!-- Center Image Icon with Mountain & Sun -->
+  <g transform="translate(320, 180)">
+    <!-- Picture Frame -->
+    <rect x="0" y="0" width="160" height="120" rx="16" fill="none" stroke="#94A3B8" stroke-width="8" stroke-linejoin="round" />
+    
+    <!-- Sun / Sparkle -->
+    <circle cx="120" cy="38" r="14" fill="#94A3B8" />
+
+    <!-- Mountain Peaks -->
+    <path d="M12 110 L65 50 L105 92 L125 72 L148 110 Z" fill="#94A3B8" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g text-anchor="middle">
+    <text x="400" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800" fill="#1E293B" letter-spacing="0.5">
+      CromShop <tspan fill="#6366F1">Static</tspan>
+    </text>
+    <text x="400" y="410" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#64748B" letter-spacing="1.5">
+      IMAGEM PREVIEW • CROM.RUN
+    </text>
+  </g>
+</svg>
