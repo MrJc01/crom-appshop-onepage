@@ -413,19 +413,15 @@
         </span>
       </div>
 
-      <!-- Video Player Container / YouTube Slot -->
-      <div class="relative w-full aspect-video rounded-2xl bg-slate-900 border border-slate-800 flex flex-col items-center justify-center text-center p-6 group cursor-pointer overflow-hidden shadow-inner">
-        <div class="absolute inset-0 bg-indigo-600/10 group-hover:bg-indigo-600/20 transition-colors"></div>
-        
-        <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-indigo-600 to-cyan-500 text-white flex items-center justify-center shadow-xl shadow-indigo-500/40 group-hover:scale-110 transition-transform z-10 mb-4">
-          <i data-lucide="play" class="w-8 h-8 ml-1 fill-white"></i>
-        </div>
-        
-        <h4 class="text-lg sm:text-xl font-heading font-bold text-white z-10 mb-1">Assista ao Tour pelo CromShop Static</h4>
-        <p class="text-xs sm:text-sm text-slate-300 max-w-md z-10">Veja em detalhes a navegação instantânea, o catálogo no WhatsApp e o painel administrativo.</p>
-        <span class="text-[11px] font-mono text-cyan-300 mt-3 z-10 px-3 py-1 rounded-full bg-slate-800/90 border border-slate-700">
-          [Slot pronto para incorporação de vídeo do YouTube / Loom]
-        </span>
+      <!-- Video Player Container / YouTube Embed -->
+      <div class="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950">
+        <iframe 
+          class="w-full h-full border-0" 
+          src="https://www.youtube.com/embed/I65Wna1WvPo?rel=0&modestbranding=1" 
+          title="Tour Demonstrativo pelo CromShop" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
       </div>
     </div>
   </section>
