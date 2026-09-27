@@ -1,4 +1,4 @@
-version: '3.8'
+name: crom-appshop-onepage
 
 services:
   appshop-onepage:
@@ -6,4 +6,4 @@ services:
     container_name: appshop-onepage
     restart: always
     ports:
-      - "8000:80"
+      - "127.0.0.1:8000:80"
